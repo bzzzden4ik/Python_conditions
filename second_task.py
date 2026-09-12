@@ -2,27 +2,27 @@ year = int(input())
 
 match year % 12:
     case 0:
-        print("Обезьяны")
+        print("обезьяны")
     case 1:
-        print("Петуха")
+        print("петуха")
     case 2:
-        print("Собаки")
+        print("собаки")
     case 3:
-        print("Свиньи")
+        print("свиньи")
     case 4:
-        print("Крысы")
+        print("крысы")
     case 5:
-        print("Коровы")
+        print("коровы")
     case 6:
-        print("Тигра")
+        print("тигра")
     case 7:
-        print("Зайца")
+        print("зайца")
     case 8:
-        print("Дракона")
+        print("дракона")
     case 9:
-        print("Змеи")
+        print("змеи")
     case 10:
-        print("Лошади")
+        print("лошади")
     case 11:
-        print("Овцы")
+        print("овцы")
         
