@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="IqujesX3fjwSGXSHxSoU">
+    <mxGraphModel dx="1285" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mDmpjkclQL9jSQ-Okcp8-4" edge="1" parent="1" source="mDmpjkclQL9jSQ-Okcp8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="mDmpjkclQL9jSQ-Okcp8-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDmpjkclQL9jSQ-Okcp8-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Начало" vertex="1">
+          <mxGeometry height="60" width="180" x="300" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="mDmpjkclQL9jSQ-Okcp8-6" edge="1" parent="1" source="mDmpjkclQL9jSQ-Okcp8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="mDmpjkclQL9jSQ-Okcp8-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDmpjkclQL9jSQ-Okcp8-3" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;align=center;" value="&lt;div align=&quot;center&quot;&gt;Ввод значений с плавающей точкой a, b, x&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="300" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mDmpjkclQL9jSQ-Okcp8-17" edge="1" parent="1" source="mDmpjkclQL9jSQ-Okcp8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="mDmpjkclQL9jSQ-Okcp8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDmpjkclQL9jSQ-Okcp8-5" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="a * x &amp;lt; b" vertex="1">
+          <mxGeometry height="120" width="180" x="300" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="mDmpjkclQL9jSQ-Okcp8-21" edge="1" parent="1" source="mDmpjkclQL9jSQ-Okcp8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="mDmpjkclQL9jSQ-Okcp8-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="540" />
+              <mxPoint x="390" y="540" />
+            </Array>
+            <mxPoint x="350" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mDmpjkclQL9jSQ-Okcp8-11" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="&lt;div&gt;Вывод значения&lt;/div&gt;&lt;div&gt;$$e^{-2x}+\sqrt[4]{a^4 + x}$$&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="100" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="mDmpjkclQL9jSQ-Okcp8-12" edge="1" parent="1" source="mDmpjkclQL9jSQ-Okcp8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="mDmpjkclQL9jSQ-Okcp8-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDmpjkclQL9jSQ-Okcp8-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;True&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="210" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mDmpjkclQL9jSQ-Okcp8-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="False" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mDmpjkclQL9jSQ-Okcp8-22" edge="1" parent="1" source="mDmpjkclQL9jSQ-Okcp8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="mDmpjkclQL9jSQ-Okcp8-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="540" />
+              <mxPoint x="390" y="540" />
+            </Array>
+            <mxPoint x="550" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mDmpjkclQL9jSQ-Okcp8-15" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="&lt;div&gt;Вывод значения&lt;/div&gt;&lt;div&gt;$$\sin{x} - b^2$$&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="510" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="mDmpjkclQL9jSQ-Okcp8-18" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="&lt;div&gt;Конец&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="300" y="585" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
